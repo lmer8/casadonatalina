@@ -118,9 +118,15 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #7b2d2d;
     margin-bottom: 25px;
     border-radius: 4px;
+    overflow: hidden;
+}
+
+.cover-placeholder img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
 .book-card h2 {
