@@ -7,7 +7,7 @@ body {
 
 .hero {
     height: 70vh;
-    background-color: #ded6ca;
+    background-color: #a8b5a2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,6 +24,7 @@ h1 {
     font-weight: normal;
     letter-spacing: 2px;
     margin: 0 0 20px;
+    color: #7b2d2d;
 }
 
 .slogan {
