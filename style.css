@@ -33,14 +33,14 @@ nav a:hover {
 }
 
 .hero-image {
-    width: 100%;
+    width: 30%;
     max-width: 500px;
     margin: auto;
     position: relative;
 }
 
 .hero-image img {
-    width: 50%;
+    width: 100%;
     display: block;
     border-radius: 8px;
 }
