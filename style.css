@@ -29,7 +29,7 @@ nav a:hover {
 
 .hero {
     background-color: #a8b5a2;
-    padding: 120px 0;
+        padding: 80px 0 140px 0;
 }
 
 .hero-image {
@@ -48,7 +48,7 @@ nav a:hover {
 .hero-text {
     position: absolute;
     left: 50%;
-    bottom: 35px;
+    bottom: -45px;
     transform: translateX(-50%);
     background-color: rgba(250,247,242,0.92);
     padding: 35px 60px;
