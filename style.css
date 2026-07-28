@@ -66,3 +66,36 @@ p {
     font-size: 1.15rem;
     line-height: 1.9;
 }
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.book-card {
+    background-color: #fffaf4;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #e3d9cc;
+}
+
+.cover-placeholder {
+    height: 320px;
+    background-color: #a8b5a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7b2d2d;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.book-card h2 {
+    font-size: 1.6rem;
+    color: #7b2d2d;
+}
+
+.book-card p {
+    font-size: 1rem;
+}
