@@ -1,130 +1,140 @@
 body {
     margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
-    color: #403a33;
     background-color: #faf7f2;
+    color: #403a33;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
-.hero {
-    height: 70vh;
-    background-color: #a8b5a2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero-text {
-    background-color: rgba(250,247,242,0.9);
-    padding: 45px;
-}
-
-h1 {
-    font-size: 4rem;
-    font-weight: normal;
-    letter-spacing: 2px;
-    margin: 0 0 20px;
-    color: #7b2d2d;
-}
-
-.slogan {
-    font-size: 1.4rem;
-    font-style: italic;
-    line-height: 1.6;
-}
-
-.section {
-    max-width: 800px;
-    margin: 90px auto;
-    padding: 0 30px;
-    text-align: center;
-}
+/* ---------- MENU ---------- */
 
 nav {
-    text-align: center;
-    padding: 25px;
     background-color: #faf7f2;
+    text-align: center;
+    padding: 22px;
+    border-bottom: 1px solid #ddd8cf;
 }
 
 nav a {
-    margin: 0 15px;
     color: #7b2d2d;
-    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 1.05rem;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-h2 {
-    font-size: 2.2rem;
-    font-weight: normal;
-    margin-bottom: 40px;
-}
-
-p {
-    font-size: 1.15rem;
-    line-height: 1.9;
-}
-.books {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 40px;
-    margin-top: 60px;
-}
-
-.book-card {
-    background-color: #fffaf4;
-    padding: 30px;
-    text-align: center;
-    border: 1px solid #e3d9cc;
-}
-
-.cover-placeholder {
-    height: 320px;
-    background-color: #a8b5a2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #7b2d2d;
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-}
-
-.book-card h2 {
-    font-size: 1.6rem;
-    color: #7b2d2d;
-}
-
-.book-card p {
-    font-size: 1rem;
-}
+/* ---------- HERO ---------- */
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #a8b5a2;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .hero-image {
-    width: 100%;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
     position: relative;
 }
 
 .hero-image img {
     width: 100%;
-    height: auto;
     display: block;
+    border-radius: 8px;
+}
+
+.hero-text {
+    position: absolute;
+    left: 50%;
+    bottom: 35px;
+    transform: translateX(-50%);
+    background-color: rgba(250,247,242,0.92);
+    padding: 28px 45px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #7b2d2d;
+    font-weight: normal;
+}
+
+.slogan {
+    margin-top: 15px;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.5;
 }
 
 .image-credit {
     position: absolute;
-    bottom: 10px;
-    right: 15px;
-    font-size: 0.85rem;
+    bottom: 8px;
+    right: 10px;
+    font-size: 0.8rem;
     color: white;
-    background-color: rgba(0,0,0,0.35);
-    padding: 5px 10px;
+    background-color: rgba(0,0,0,0.45);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* ---------- CONTENUTO ---------- */
+
+.section {
+    max-width: 850px;
+    margin: 80px auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #7b2d2d;
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.section p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+}
+
+/* ---------- LIBRI ---------- */
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.book-card {
+    background-color: #fffdf9;
+    border: 1px solid #e5ddd2;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.cover-placeholder {
+    height: 340px;
+    background-color: #c6d0c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7b2d2d;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.book-card h2 {
+    color: #7b2d2d;
+    font-weight: normal;
+}
+
+.book-card p {
+    font-size: 1rem;
+    line-height: 1.6;
 }
