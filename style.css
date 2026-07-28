@@ -29,12 +29,12 @@ nav a:hover {
 
 .hero {
     background-color: #a8b5a2;
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .hero-image {
-    width: 80%;
-    max-width: 1000px;
+    width: 50%;
+    max-width: 700px;
     margin: auto;
     position: relative;
 }
@@ -51,7 +51,7 @@ nav a:hover {
     bottom: 35px;
     transform: translateX(-50%);
     background-color: rgba(250,247,242,0.92);
-    padding: 28px 45px;
+    padding: 35px 60px;
     text-align: center;
     border-radius: 6px;
 }
