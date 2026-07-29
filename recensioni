@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recensioni - Casa Donatalina</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="libri.html">Libri</a>
+    <a href="storie.html">Storie</a>
+    <a href="taccuino.html">Dal taccuino</a>
+    <a href="recensioni.html">Recensioni</a>
+    <a href="autori.html">Autori</a>
+</nav>
+
+
+<section class="section">
+
+    <h1>Recensioni</h1>
+
+    <p>
+        Uno spazio dedicato alle letture, ai commenti e alle riflessioni
+        nate intorno ai libri di Casa Donatalina.
+    </p>
+
+    <p>
+        Qui troveranno spazio recensioni, testimonianze dei lettori
+        e approfondimenti sui libri e sui loro percorsi.
+    </p>
+
+</section>
+
+
+<footer>
+
+    <h3>Casa Donatalina</h3>
+
+    <p><em>Libri, memoria e storie.</em></p>
+
+    <p>© 2026 Casa Donatalina</p>
+
+    <p>
+        <a href="https://www.linkedin.com/company/casa-donatalina/" target="_blank">
+            Casa Donatalina su LinkedIn
+        </a>
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
