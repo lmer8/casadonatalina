@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dal taccuino - Casa Donatalina</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="libri.html">Libri</a>
+    <a href="storie.html">Storie</a>
+    <a href="taccuino.html">Dal taccuino</a>
+    <a href="recensioni.html">Recensioni</a>
+    <a href="autori.html">Autori</a>
+</nav>
+
+<section class="section">
+
+    <h1>Dal taccuino</h1>
+
+    <p>
+        Appunti, incontri e pensieri dal percorso di Casa Donatalina.
+    </p>
+
+    <p>
+        Uno spazio per raccontare il dietro le quinte dei libri,
+        delle storie e delle persone che li fanno nascere.
+    </p>
+
+</section>
+
+<footer>
+
+    <h3>Casa Donatalina</h3>
+
+    <p><em>Libri, memoria e storie.</em></p>
+
+    <p>© 2026 Casa Donatalina</p>
+
+    <p>
+        <a href="https://www.linkedin.com/company/casa-donatalina/" target="_blank">
+            Casa Donatalina su LinkedIn
+        </a>
+    </p>
+
+</footer>
+
+</body>
+
+</html>
