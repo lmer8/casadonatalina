@@ -179,3 +179,34 @@ nav a:hover {
     color: #7b2d2d;
     font-weight: normal;
 }
+/* ---------- FOOTER ---------- */
+
+footer {
+    margin-top: 100px;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 1px solid #d8d3ca;
+    background-color: #faf7f2;
+    color: #6b665f;
+    font-size: 0.95rem;
+}
+
+footer h3 {
+    margin: 0 0 15px;
+    color: #7b2d2d;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #7b2d2d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
