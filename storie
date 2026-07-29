@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Storie - Casa Donatalina</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="libri.html">Libri</a>
+    <a href="storie.html">Storie</a>
+    <a href="taccuino.html">Dal taccuino</a>
+    <a href="recensioni.html">Recensioni</a>
+    <a href="autori.html">Autori</a>
+</nav>
+
+<section class="section">
+
+    <h1>Storie</h1>
+
+    <p>
+        Le storie nascono dalle persone, dai luoghi e dal tempo che attraversano.
+    </p>
+
+    <p>
+        In questa sezione troveranno spazio racconti, approfondimenti e riflessioni
+        sulle vicende che hanno attraversato una famiglia e un'epoca.
+    </p>
+
+</section>
+
+<footer>
+
+    <h3>Casa Donatalina</h3>
+
+    <p><em>Libri, memoria e storie.</em></p>
+
+    <p>© 2026 Casa Donatalina</p>
+
+    <p>
+        <a href="https://www.linkedin.com/company/casa-donatalina/" target="_blank">
+            Casa Donatalina su LinkedIn
+        </a>
+    </p>
+
+</footer>
+
+</body>
+
+</html>
