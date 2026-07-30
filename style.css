@@ -395,3 +395,20 @@ footer a:hover {
 .journal-one .journal-text {
     width: auto;
 }
+
+.journal-two {
+    display: block;
+    background-color: #e2e9df;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.journal-two .journal-image {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 35px;
+}
+
+.journal-two .journal-text {
+    width: auto;
+}
