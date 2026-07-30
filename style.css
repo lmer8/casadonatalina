@@ -445,3 +445,145 @@ footer a:hover {
     color: #7b2d2d;
     font-weight: normal;
 }
+
+/* ---------- VERSIONE MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+    /* MENU */
+
+    nav {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px 8px;
+        font-size: 0.95rem;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 40px 0 130px 0;
+    }
+
+    .hero-image {
+        width: 90%;
+    }
+
+    .hero-text {
+        width: 80%;
+        bottom: -90px;
+        padding: 25px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .slogan {
+        font-size: 1rem;
+    }
+
+
+    /* CONTENUTO */
+
+    .section {
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+
+    .section h1 {
+        font-size: 2.2rem;
+    }
+
+    .section h2 {
+        font-size: 1.8rem;
+    }
+
+
+    /* LIBRI */
+
+    .books {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .book-card {
+        padding: 25px;
+    }
+
+
+    /* AUTORI */
+
+    .authors {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .author-card {
+        padding: 25px;
+    }
+
+
+    /* TACCUINO */
+
+    .journal-section {
+        padding: 0 20px;
+    }
+
+    .journal-entry,
+    .journal-entry.image-left {
+        display: block;
+    }
+
+    .journal-image {
+        width: 100%;
+        height: 280px;
+        margin-bottom: 25px;
+    }
+
+    .journal-text {
+        width: auto;
+        padding: 30px;
+    }
+
+    .journal-one,
+    .journal-two {
+        padding: 25px;
+    }
+
+    .journal-one .journal-image,
+    .journal-two .journal-image {
+        height: 280px;
+        margin-bottom: 25px;
+    }
+
+
+    /* STORIE */
+
+    .story-card {
+        padding: 25px;
+    }
+
+    .story-image {
+        height: 280px;
+        margin-bottom: 25px;
+    }
+
+    .story-text {
+        text-align: left;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 40px 20px;
+    }
+
+}
