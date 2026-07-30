@@ -543,3 +543,24 @@ footer a:hover {
     }
 
 }
+/* ---------- COLLEGAMENTO AL LIBRO NELLE STORIE ---------- */
+
+.story-card hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.story-book-link {
+    text-align: center;
+    color: #666;
+}
+
+.story-book-link a {
+    color: #7b2d2d;
+    text-decoration: none;
+}
+
+.story-book-link a:hover {
+    text-decoration: underline;
+}
