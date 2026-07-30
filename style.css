@@ -346,14 +346,14 @@ footer a:hover {
 
 .journal-entry {
     display: grid;
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: 1fr 500px;
     gap: 40px;
     align-items: center;
     margin: 70px 0;
 }
 
 .journal-entry.image-left {
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 500px 1fr;
 }
 
 .journal-text {
@@ -361,7 +361,7 @@ footer a:hover {
 }
 
 .journal-image {
-    height: 280px;
+    height: 500px;
     background-color: #c6d0c2;
     display: flex;
     align-items: center;
