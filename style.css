@@ -264,97 +264,51 @@ footer a:hover {
 
 /* ---------- TACCUINO ---------- */
 
-.journal-entry{
-    background:#fffdf9;
-    border:1px solid #e5ddd2;
-    padding:45px;
-    border-radius:8px;
-    text-align:left;
-    margin-top:50px;
+.journal-section {
+    max-width: 1200px;
 }
 
-.journal-number{
-    color:#7b2d2d;
-    font-size:.9rem;
-    letter-spacing:2px;
-    text-transform:uppercase;
-}
 
-.journal-date{
-    color:#888;
-    font-style:italic;
-    margin-bottom:35px;
-}
-
-.journal-entry h2{
-    color:#7b2d2d;
-    font-weight:normal;
-}
-
-.journal-entry p{
-    line-height:1.9;
-}
-
-.journal-entry hr{
-    margin:40px 0;
-    border:none;
-    border-top:1px solid #ddd;
-}
-
-.journal-ending{
-    text-align:center;
-    font-style:italic;
-}
-
-.contact-box{
-    margin-top:60px;
-    background:#fffdf9;
-    border:1px solid #e5ddd2;
-    border-radius:8px;
-    padding:35px;
-}
-
-.contact-box h3{
-    color:#7b2d2d;
-    text-align:center;
-    font-weight:normal;
-}
-
-.contact-box input,
-.contact-box textarea{
-    width:100%;
-    box-sizing:border-box;
-    margin-top:15px;
-    padding:12px;
-    border:1px solid #d6d0c7;
-    border-radius:4px;
-    font-family:inherit;
-    font-size:1rem;
-}
-
-.contact-box button{
-    margin-top:20px;
-    background:#7b2d2d;
-    color:white;
-    border:none;
-    padding:12px 28px;
-    border-radius:4px;
-    cursor:default;
-    opacity:.75;
-}
-/* ---------- TACCUINO ---------- */
+/* Contenitore generale del Taccuino */
 
 .journal-entry {
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    gap: 50px;
-    align-items: center;
     margin: 70px 0;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
 }
 
-.journal-entry.image-left {
-    grid-template-columns: 350px 1fr;
+
+/* Colori dei singoli Taccuini */
+
+.journal-one {
+    background-color: #f9e4df;
 }
+
+.journal-two {
+    background-color: #e2e9df;
+}
+
+
+/* Immagine */
+
+.journal-image {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.journal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Box del testo */
 
 .journal-text {
     background-color: #fffdf9;
@@ -364,53 +318,55 @@ footer a:hover {
     text-align: left;
 }
 
-.journal-image {
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/* Numero del Taccuino */
+
+.journal-number {
+    color: #7b2d2d;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-.journal-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.journal-section {
-    max-width: 1200px;
-}
-.journal-one {
-    display: block;
-    background-color: #f9e4df;
-    padding: 40px;
-    border-radius: 10px;
+
+/* Titoli */
+
+.journal-entry h2 {
+    color: #7b2d2d;
+    font-weight: normal;
 }
 
-.journal-one .journal-image {
-    width: 100%;
-    height: 450px;
+
+/* Data */
+
+.journal-date {
+    color: #888;
+    font-style: italic;
     margin-bottom: 35px;
 }
 
-.journal-one .journal-text {
-    width: auto;
+
+/* Testo */
+
+.journal-entry p {
+    line-height: 1.9;
 }
 
-.journal-two {
-    display: block;
-    background-color: #e2e9df;
-    padding: 40px;
-    border-radius: 10px;
+
+/* Separatore prima della parte finale */
+
+.journal-entry hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
 }
 
-.journal-two .journal-image {
-    width: 100%;
-    height: 450px;
-    margin-bottom: 35px;
-}
 
-.journal-two .journal-text {
-    width: auto;
+/* Frase finale */
+
+.journal-ending {
+    text-align: center;
+    font-style: italic;
 }
 /* ---------- STORIE ---------- */
 
