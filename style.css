@@ -720,3 +720,14 @@ footer a:hover {
     font-size: 0.9rem;
     color: #6b665f;
 }
+/* INCONTRI */
+
+    .meeting-links {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .meeting-card {
+        padding: 30px 25px;
+    }
