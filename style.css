@@ -583,3 +583,13 @@ footer a:hover {
 .story-book-link a:hover {
     text-decoration: underline;
 }
+
+
+.book-cover {
+    display: block;
+    width: 220px;
+    max-width: 70%;
+    height: auto;
+    margin: 25px auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
