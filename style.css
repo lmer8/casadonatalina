@@ -421,6 +421,45 @@ footer a:hover {
     font-weight: normal;
 }
 
+/* ---------- INCONTRI ---------- */
+
+.meeting-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.meeting-card {
+    background-color: #fffdf9;
+    border: 1px solid #e5ddd2;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.meeting-card h2 {
+    color: #7b2d2d;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.meeting-card p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.meeting-card a {
+    color: #7b2d2d;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.meeting-card a:hover {
+    text-decoration: underline;
+}
+
 /* ---------- VERSIONE MOBILE ---------- */
 
 @media (max-width: 700px) {
