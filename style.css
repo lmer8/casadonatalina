@@ -562,6 +562,39 @@ footer a:hover {
     }
 
 }
+
+/* ARTICOLI */
+
+.article-card {
+    padding: 25px;
+}
+
+.article-card h3 {
+    font-size: 1.7rem;
+}
+
+.article-subtitle {
+    font-size: 1.05rem;
+}
+
+.article-image {
+    height: 280px;
+    margin-bottom: 25px;
+}
+
+.article-image img {
+    max-width: 180px;
+}
+
+.article-card p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.article-card blockquote {
+    margin: 25px 5px;
+    padding-left: 20px;
+}
 /* ---------- COLLEGAMENTO AL LIBRO NELLE STORIE ---------- */
 
 .story-card hr {
