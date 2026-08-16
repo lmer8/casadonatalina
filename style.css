@@ -783,3 +783,8 @@ footer a:hover {
     max-width: 500px;
     margin: 0 auto;
 }
+
+.article-image-large img {
+    width: 100%;
+    max-width: 900px;
+}
