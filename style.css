@@ -30,6 +30,28 @@ nav a:hover {
 
 
 /* =========================================================
+   SELETTORE LINGUA
+   ========================================================= */
+
+.language-selector {
+    background-color: #faf7f2;
+    text-align: center;
+    padding: 0 20px 14px;
+    font-size: 0.9rem;
+}
+
+.language-selector a {
+    color: #7b2d2d;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+.language-selector a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
    HERO
    ========================================================= */
 
@@ -581,6 +603,18 @@ footer a:hover {
     }
 
 
+    /* SELETTORE LINGUA */
+
+    .language-selector {
+        padding: 0 10px 10px;
+        font-size: 0.85rem;
+    }
+
+    .language-selector a {
+        margin: 0 4px;
+    }
+
+
     /* HERO */
 
     .hero {
@@ -763,6 +797,10 @@ footer a:hover {
 }
 
 
+/* =========================================================
+   NEWSLETTER
+   ========================================================= */
+
 .newsletter {
     max-width: 700px;
     margin: 70px auto 60px;
@@ -783,6 +821,11 @@ footer a:hover {
     max-width: 500px;
     margin: 0 auto;
 }
+
+
+/* =========================================================
+   IMMAGINI ARTICOLI
+   ========================================================= */
 
 .article-image-large img {
     width: 100%;
