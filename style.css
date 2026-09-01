@@ -311,6 +311,10 @@ nav a:hover {
     background-color: #eee4d4;
 }
 
+.journal-five {
+    background-color: #e8e0eb;
+}
+
 .journal-image {
     width: 100%;
     height: 450px;
@@ -713,19 +717,21 @@ footer a:hover {
         padding: 25px;
     }
 
+    .journal-three {
+        padding: 25px;
+    }
+
+    .journal-four,
+    .journal-five {
+        padding: 25px;
+    }
+
     .journal-one .journal-image,
     .journal-two .journal-image {
         height: 280px;
         margin-bottom: 25px;
     }
 
-    .journal-three {
-        padding: 25px;
-    }
-
-    .journal-four {
-    padding: 25px;
-}
     .journal-three .journal-image {
         height: 280px;
         margin-bottom: 25px;
