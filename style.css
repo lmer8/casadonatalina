@@ -560,7 +560,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-```css
+
 /* =========================================================
    COMMENTI DEI VISITATORI
    ========================================================= */
@@ -606,7 +606,6 @@ nav a:hover {
     font-style: italic;
     color: #6b665f;
 }
-```
 
 
 /* =========================================================
@@ -830,8 +829,9 @@ footer a:hover {
     }
 
     .baldree-image img {
-    max-width: 360px;
-}
+        max-width: 360px;
+    }
+
     .article-card p {
         font-size: 1.05rem;
         line-height: 1.8;
@@ -853,6 +853,23 @@ footer a:hover {
 
     .meeting-card {
         padding: 30px 25px;
+    }
+
+
+    /* COMMENTI DEI VISITATORI */
+
+    .reader-comments {
+        margin-top: 40px;
+    }
+
+    .comment-card {
+        padding: 25px;
+        margin: 25px 0;
+    }
+
+    .comment-card p {
+        font-size: 1.05rem;
+        line-height: 1.8;
     }
 
 
@@ -899,21 +916,3 @@ footer a:hover {
     width: 100%;
     max-width: 900px;
 }
-
-
-    /* COMMENTI DEI VISITATORI */
-
-    .reader-comments {
-        margin-top: 40px;
-    }
-
-    .comment-card {
-        padding: 25px;
-        margin: 25px 0;
-    }
-
-    .comment-card p {
-        font-size: 1.05rem;
-        line-height: 1.8;
-    }
-
