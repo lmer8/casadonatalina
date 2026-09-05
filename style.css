@@ -633,6 +633,14 @@ nav a:hover {
     color: #403a33;
 }
 
+.comment-card .comment-context {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: #6b665f;
+    margin: 0 0 18px;
+}
 
 /* Firma / fonte del commento */
 
@@ -913,6 +921,13 @@ footer a:hover {
         line-height: 1.55;
     }
 
+     .comment-card .comment-context {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 0.85rem;
+        line-height: 1.5;
+        font-style: italic;
+        margin-bottom: 15px;
+    }
     .comment-source {
         margin-top: 20px !important;
         font-size: 1.15rem !important;
