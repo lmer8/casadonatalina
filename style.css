@@ -560,6 +560,54 @@ nav a:hover {
     text-decoration: underline;
 }
 
+```css
+/* =========================================================
+   COMMENTI DEI VISITATORI
+   ========================================================= */
+
+.reader-comments {
+    max-width: 750px;
+    margin: 60px auto 0;
+}
+
+.comment-card {
+    padding: 35px 40px;
+    margin: 35px 0;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.comment-card:nth-child(4n+1) {
+    background-color: #f9e4df;
+}
+
+.comment-card:nth-child(4n+2) {
+    background-color: #e2e9df;
+}
+
+.comment-card:nth-child(4n+3) {
+    background-color: #e3eaf0;
+}
+
+.comment-card:nth-child(4n) {
+    background-color: #eee4d4;
+}
+
+.comment-card p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    margin: 0;
+}
+
+.comment-source {
+    margin-top: 25px !important;
+    text-align: right;
+    font-size: 0.95rem !important;
+    font-style: italic;
+    color: #6b665f;
+}
+```
+
 
 /* =========================================================
    FOOTER
