@@ -571,39 +571,78 @@ nav a:hover {
 }
 
 .comment-card {
-    padding: 35px 40px;
-    margin: 35px 0;
-    border-radius: 10px;
+    position: relative;
+    padding: 35px 40px 40px;
+    margin: 40px 0;
+    border-radius: 2px;
     text-align: left;
+
+    /* Effetto foglio di quaderno */
+    background-color: #fffdf7;
+
+    background-image:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 31px,
+            rgba(120, 140, 150, 0.18) 32px
+        );
+
+    /* Piccola ombra per staccare il foglio dalla pagina */
+    box-shadow: 0 3px 10px rgba(60, 50, 40, 0.10);
+
+    /* Effetto leggermente irregolare */
+    transform: rotate(-0.5deg);
 }
 
+
+/* Alterniamo leggermente l'inclinazione dei fogli */
+
+.comment-card:nth-child(even) {
+    transform: rotate(0.7deg);
+}
+
+
+/* Colori delicati dei diversi fogli */
+
 .comment-card:nth-child(4n+1) {
-    background-color: #f9e4df;
+    background-color: #fffdf7;
 }
 
 .comment-card:nth-child(4n+2) {
-    background-color: #e2e9df;
+    background-color: #fdf9ef;
 }
 
 .comment-card:nth-child(4n+3) {
-    background-color: #e3eaf0;
+    background-color: #f8fbfa;
 }
 
 .comment-card:nth-child(4n) {
-    background-color: #eee4d4;
+    background-color: #fbf7f0;
 }
 
+
+/* Testo scritto a mano */
+
 .comment-card p {
-    font-size: 1.1rem;
-    line-height: 1.9;
+    font-family: "Caveat", cursive;
+    font-size: 1.55rem;
+    font-weight: 400;
+    line-height: 1.55;
     margin: 0;
+    color: #403a33;
 }
+
+
+/* Firma / fonte del commento */
 
 .comment-source {
     margin-top: 25px !important;
     text-align: right;
-    font-size: 0.95rem !important;
-    font-style: italic;
+    font-family: "Caveat", cursive;
+    font-size: 1.25rem !important;
+    font-weight: 500;
+    font-style: normal;
     color: #6b665f;
 }
 
