@@ -899,3 +899,21 @@ footer a:hover {
     width: 100%;
     max-width: 900px;
 }
+
+
+    /* COMMENTI DEI VISITATORI */
+
+    .reader-comments {
+        margin-top: 40px;
+    }
+
+    .comment-card {
+        padding: 25px;
+        margin: 25px 0;
+    }
+
+    .comment-card p {
+        font-size: 1.05rem;
+        line-height: 1.8;
+    }
+
