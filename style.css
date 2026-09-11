@@ -302,6 +302,20 @@ nav a:hover {
     max-width: 1200px;
 }
 
+.journal-page-image {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto 70px;
+    text-align: center;
+}
+
+.journal-page-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
 .journal-entry {
     margin: 70px 0;
     padding: 40px;
