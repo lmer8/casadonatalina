@@ -840,6 +840,16 @@ footer a:hover {
         padding: 0 20px;
     }
 
+        .journal-page-image {
+        width: 100%;
+        margin: 35px auto 50px;
+    }
+
+    .journal-page-image img {
+        width: 100%;
+        height: auto;
+    }
+    
     .journal-entry,
     .journal-entry.image-left {
         display: block;
