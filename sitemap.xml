@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
@@ -8,11 +9,9 @@
   <url>
     <loc>https://casadonatalina.it/index-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/index-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/index-es.html</loc>
   </url>
@@ -20,15 +19,12 @@
   <url>
     <loc>https://casadonatalina.it/articoli.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/articoli-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/articoli-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/articoli-es.html</loc>
   </url>
@@ -36,15 +32,12 @@
   <url>
     <loc>https://casadonatalina.it/autori.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/autori-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/autori-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/autori-es.html</loc>
   </url>
@@ -52,15 +45,12 @@
   <url>
     <loc>https://casadonatalina.it/commenti.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/commenti-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/commenti-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/commenti-es.html</loc>
   </url>
@@ -68,15 +58,12 @@
   <url>
     <loc>https://casadonatalina.it/incontri.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/incontri-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/incontri-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/incontri-es.html</loc>
   </url>
@@ -84,15 +71,12 @@
   <url>
     <loc>https://casadonatalina.it/libri.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/libri-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/libri-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/libri-es.html</loc>
   </url>
@@ -100,15 +84,12 @@
   <url>
     <loc>https://casadonatalina.it/recensioni.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/recensioni-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/recensioni-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/recensioni-es.html</loc>
   </url>
@@ -116,15 +97,12 @@
   <url>
     <loc>https://casadonatalina.it/storie.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/storie-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/storie-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/storie-es.html</loc>
   </url>
@@ -132,17 +110,91 @@
   <url>
     <loc>https://casadonatalina.it/taccuino.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/taccuino-de.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/taccuino-en.html</loc>
   </url>
-
   <url>
     <loc>https://casadonatalina.it/taccuino-es.html</loc>
+  </url>
+
+
+  <!-- Articoli -->
+
+  <url>
+    <loc>https://casadonatalina.it/articoli/a-casa-donatalina-i-libri-non-si-distruggono-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/baldree-de.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/baldree-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/baldree-es.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/baldree.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/bauman-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/bauman.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/hailmary-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/hailmary.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/lavoro-cosa-sono-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/lavoro-cosa-sono.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/libri-non-si-distruggono.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/mendoza-il-messico-e-una-spiaggia-vuota.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/mendoza-mexico-playa-vacia.html</loc>
+  </url>
+
+
+  <!-- Storie -->
+
+  <url>
+    <loc>https://casadonatalina.it/storie/intervistaSCEAD-de.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/intervistaSCEAD-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/intervistaSCEAD-es.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/intervistaSCEAD.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/mazarol1.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/presentazione-parco-contessa-de.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/presentazione-parco-contessa-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/presentazione-parco-contessa-es.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/storie/presentazione-parco-contessa.html</loc>
   </url>
 
 </urlset>
