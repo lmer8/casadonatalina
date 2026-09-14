@@ -1,3 +1,4 @@
+```css
 body {
     margin: 0;
     background-color: #faf7f2;
@@ -109,6 +110,7 @@ nav a:hover {
     border-radius: 4px;
 }
 
+
 /* =========================================================
    BOOKSHOP / CAFFÈ
    ========================================================= */
@@ -126,6 +128,7 @@ nav a:hover {
     display: block;
     border-radius: 8px;
 }
+
 
 /* =========================================================
    CONTENUTO GENERALE
@@ -560,35 +563,90 @@ nav a:hover {
 
 .meeting-links {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
     margin-top: 60px;
+    align-items: start;
 }
 
 .meeting-card {
-    background-color: #fffdf9;
-    border: 1px solid #e5ddd2;
-    padding: 40px;
-    border-radius: 10px;
+    width: 100%;
+    height: 520px;
+    box-sizing: border-box;
+
+    padding: 35px 22px 30px;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: none;
+    border-radius: 0;
+
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
 }
+
+
+/* =========================================================
+   PORTE DELLE TRE STANZE
+   ========================================================= */
+
+.meeting-card.door-1 {
+    background-image: url("images/porta1.png");
+}
+
+.meeting-card.door-2 {
+    background-image: url("images/porta2.png");
+}
+
+.meeting-card.door-3 {
+    background-image: url("images/porta3.png");
+}
+
+
+/* =========================================================
+   TESTO SULLE PORTE
+   ========================================================= */
 
 .meeting-card h2 {
     color: #7b2d2d;
     font-weight: normal;
     margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .meeting-card p {
     font-size: 1.05rem;
-    line-height: 1.8;
-    margin-bottom: 30px;
+    line-height: 1.65;
+    margin: 0;
 }
+
+
+/* I <br> del primo riquadro non devono diventare
+   elementi separati nel layout flex */
+
+.meeting-card br {
+    display: none;
+}
+
+
+/* I link vengono spinti nella parte bassa della porta */
 
 .meeting-card a {
     color: #7b2d2d;
     text-decoration: none;
     font-size: 1rem;
+}
+
+.meeting-card a:first-of-type {
+    margin-top: auto;
 }
 
 .meeting-card a:hover {
@@ -676,6 +734,7 @@ nav a:hover {
     color: #6b665f;
     margin: 0 0 18px;
 }
+
 
 /* Firma / fonte del commento */
 
@@ -769,274 +828,5 @@ footer a:hover {
     .hero-text {
         width: 80%;
         bottom: -90px;
-        padding: 25px 20px;
-    }
-
-    .hero-text h1 {
-        font-size: 2.3rem;
-    }
-
-    .slogan {
-        font-size: 1rem;
-    }
-
-/* BOOKSHOP / CAFFÈ */
-
-    .bookshop-image {
-        width: 92%;
-        margin: 50px auto;
-    }
-
-    .bookshop-image img {
-        width: 100%;
-        height: auto;
-    }
-    
-    /* CONTENUTO */
-
-    .section {
-        margin: 50px auto;
-        padding: 0 20px;
-    }
-
-    .section h1 {
-        font-size: 2.2rem;
-    }
-
-    .section h2 {
-        font-size: 1.8rem;
-    }
-
-
-    /* LIBRI */
-
-    .books {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin-top: 40px;
-    }
-
-    .book-card {
-        padding: 25px;
-    }
-
-
-    /* AUTORI */
-
-    .authors {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin-top: 40px;
-    }
-
-    .author-card {
-        padding: 25px;
-    }
-
-
-    /* TACCUINO */
-
-    .journal-section {
-        padding: 0 20px;
-    }
-
-        .journal-page-image {
-        width: 100%;
-        margin: 35px auto 50px;
-    }
-
-    .journal-page-image img {
-        width: 100%;
-        height: auto;
-    }
-    
-    .journal-entry,
-    .journal-entry.image-left {
-        display: block;
-    }
-
-    .journal-image {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 25px;
-    }
-
-    .journal-text {
-        width: auto;
-        padding: 30px;
-    }
-
-    .journal-one,
-    .journal-two {
-        padding: 25px;
-    }
-
-    .journal-three {
-        padding: 25px;
-    }
-
-    .journal-four,
-    .journal-five,
-    .journal-six {
-        padding: 25px;
-    }
-
-    .journal-one .journal-image,
-    .journal-two .journal-image {
-        height: 280px;
-        margin-bottom: 25px;
-    }
-
-    .journal-three .journal-image {
-        height: 280px;
-        margin-bottom: 25px;
-    }
-
-
-    /* STORIE */
-
-    .story-card {
-        padding: 25px;
-    }
-
-    .story-image {
-        height: 280px;
-        margin-bottom: 25px;
-    }
-
-    .story-text {
-        text-align: left;
-    }
-
-
-    /* ARTICOLI */
-
-    .article-card {
-        padding: 25px;
-    }
-
-    .article-card h3 {
-        font-size: 1.7rem;
-    }
-
-    .article-subtitle {
-        font-size: 1.05rem;
-    }
-
-    .article-image {
-        height: 280px;
-        margin-bottom: 25px;
-    }
-
-    .article-image img {
-        max-width: 180px;
-    }
-
-    .baldree-image img {
-        max-width: 360px;
-    }
-
-    .article-card p {
-        font-size: 1.05rem;
-        line-height: 1.8;
-    }
-
-    .article-card blockquote {
-        margin: 25px 5px;
-        padding-left: 20px;
-    }
-
-
-    /* INCONTRI */
-
-    .meeting-links {
-        grid-template-columns: 1fr;
-        gap: 25px;
-        margin-top: 40px;
-    }
-
-    .meeting-card {
-        padding: 30px 25px;
-    }
-
-
-    /* COMMENTI DEI VISITATORI */
-
-    .reader-comments {
-        margin-top: 40px;
-    }
-
-    .comment-card {
-        padding: 28px 25px 32px;
-        margin: 30px 0;
-        border-radius: 2px;
-    }
-
-    .comment-card p {
-        font-family: "Caveat", cursive;
-        font-size: 1.35rem;
-        line-height: 1.55;
-    }
-
-     .comment-card .comment-context {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 0.85rem;
-        line-height: 1.5;
-        font-style: italic;
-        margin-bottom: 15px;
-    }
-    .comment-source {
-        margin-top: 20px !important;
-        font-size: 1.15rem !important;
-    }
-
-
-    /* FOOTER */
-
-    footer {
-        padding: 40px 20px;
-    }
-
-}
-
-
-/* =========================================================
-   NEWSLETTER
-   ========================================================= */
-
-.newsletter {
-    max-width: 700px;
-    margin: 70px auto 60px;
-    text-align: center;
-}
-
-.newsletter hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin-bottom: 50px;
-}
-
-.newsletter p {
-    margin-bottom: 30px;
-}
-
-.newsletter-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-
-/* =========================================================
-   IMMAGINI ARTICOLI
-   ========================================================= */
-
-.article-image-large {
-    height: auto;
-}
-
-.article-image-large img {
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    object-fit: contain;
-}
+        padd
+```
