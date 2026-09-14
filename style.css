@@ -728,6 +728,80 @@ footer a:hover {
 }
 
 
+/* =========================
+   BIBLIOTECA
+   ========================= */
+
+.library-list {
+    background: #dfe8d8;
+    padding: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+.book-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    column-gap: 4rem;
+    padding: 0 0 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    text-align: left;
+}
+
+.book-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.book-info h3,
+.book-info h4 {
+    font-family: inherit;
+    text-align: left;
+    margin-top: 0;
+}
+
+.book-info h4 {
+    margin-bottom: 1rem;
+}
+
+.book-info p {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.book-links {
+    text-align: left;
+}
+
+.book-links p {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.book-links a {
+    text-align: left;
+}
+
+.affiliate-disclaimer {
+    min-height: 1.5rem;
+}
+
+@media (max-width: 700px) {
+
+    .library-list {
+        padding: 1.5rem;
+    }
+
+    .book-entry {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+    }
+
+}
+
 /* =========================================================
    VERSIONE MOBILE
    ========================================================= */
