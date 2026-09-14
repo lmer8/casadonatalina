@@ -892,6 +892,16 @@ footer a:hover {
         padding-left: 20px;
     }
 
+    .article-list {
+    display: block;
+    margin-top: 30px;
+}
+
+.article-list .article-card {
+    width: 88%;
+    margin: 35px auto;
+    padding: 25px 22px;
+}
 
     /* INCONTRI */
 
