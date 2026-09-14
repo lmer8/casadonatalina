@@ -111,25 +111,6 @@ nav a:hover {
 
 
 /* =========================================================
-   BOOKSHOP / CAFFÈ
-   ========================================================= */
-
-.bookshop-image {
-    width: 90%;
-    max-width: 1100px;
-    margin: 80px auto;
-    text-align: center;
-}
-
-.bookshop-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-}
-
-
-/* =========================================================
    CONTENUTO GENERALE
    ========================================================= */
 
@@ -302,20 +283,6 @@ nav a:hover {
 
 .journal-section {
     max-width: 1200px;
-}
-
-.journal-page-image {
-    width: 90%;
-    max-width: 1100px;
-    margin: 50px auto 70px;
-    text-align: center;
-}
-
-.journal-page-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
 }
 
 .journal-entry {
@@ -532,10 +499,6 @@ nav a:hover {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.baldree-image img {
-    max-width: 440px;
-}
-
 .article-card p {
     font-size: 1.15rem;
     line-height: 1.9;
@@ -558,6 +521,7 @@ nav a:hover {
 
 /* =========================================================
    INCONTRI
+   NUOVA GRAFICA DELLE TRE PORTE
    ========================================================= */
 
 .meeting-links {
@@ -635,10 +599,6 @@ nav a:hover {
         0 1px 3px rgba(0, 0, 0, 0.7);
 }
 
-
-/* I <br> del primo riquadro non devono diventare
-   elementi separati nel layout flex */
-
 .meeting-card br {
     display: none;
 }
@@ -688,98 +648,6 @@ nav a:hover {
 
 
 /* =========================================================
-   COMMENTI DEI VISITATORI
-   ========================================================= */
-
-.reader-comments {
-    max-width: 750px;
-    margin: 60px auto 0;
-}
-
-.comment-card {
-    position: relative;
-    padding: 35px 40px 40px;
-    margin: 40px 0;
-    border-radius: 2px;
-    text-align: left;
-
-    background-color: #fffdf7;
-
-    background-image:
-        repeating-linear-gradient(
-            to bottom,
-            transparent 0,
-            transparent 31px,
-            rgba(120, 140, 150, 0.18) 32px
-        );
-
-    box-shadow: 0 3px 10px rgba(60, 50, 40, 0.10);
-
-    transform: rotate(-0.5deg);
-}
-
-
-/* Alterniamo leggermente l'inclinazione dei fogli */
-
-.comment-card:nth-child(even) {
-    transform: rotate(0.7deg);
-}
-
-
-/* Colori delicati dei diversi fogli */
-
-.comment-card:nth-child(4n+1) {
-    background-color: #fffdf7;
-}
-
-.comment-card:nth-child(4n+2) {
-    background-color: #fdf9ef;
-}
-
-.comment-card:nth-child(4n+3) {
-    background-color: #f8fbfa;
-}
-
-.comment-card:nth-child(4n) {
-    background-color: #fbf7f0;
-}
-
-
-/* Testo scritto a mano */
-
-.comment-card p {
-    font-family: "Caveat", cursive;
-    font-size: 1.55rem;
-    font-weight: 400;
-    line-height: 1.55;
-    margin: 0;
-    color: #403a33;
-}
-
-.comment-card .comment-context {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    font-style: italic;
-    color: #6b665f;
-    margin: 0 0 18px;
-}
-
-
-/* Firma / fonte del commento */
-
-.comment-source {
-    margin-top: 25px !important;
-    text-align: right;
-    font-family: "Caveat", cursive;
-    font-size: 1.25rem !important;
-    font-weight: 500;
-    font-style: normal;
-    color: #6b665f;
-}
-
-
-/* =========================================================
    FOOTER
    ========================================================= */
 
@@ -820,9 +688,7 @@ footer a:hover {
 
 @media (max-width: 700px) {
 
-    /* -----------------------------------------------------
-       MENU
-       ----------------------------------------------------- */
+    /* MENU */
 
     nav {
         padding: 15px 10px;
@@ -835,9 +701,7 @@ footer a:hover {
     }
 
 
-    /* -----------------------------------------------------
-       SELETTORE LINGUA
-       ----------------------------------------------------- */
+    /* SELETTORE LINGUA */
 
     .language-selector {
         padding: 0 10px 10px;
@@ -849,9 +713,7 @@ footer a:hover {
     }
 
 
-    /* -----------------------------------------------------
-       HERO
-       ----------------------------------------------------- */
+    /* HERO */
 
     .hero {
         padding: 40px 0 130px 0;
@@ -876,9 +738,7 @@ footer a:hover {
     }
 
 
-    /* -----------------------------------------------------
-       CONTENUTO GENERALE
-       ----------------------------------------------------- */
+    /* CONTENUTO */
 
     .section {
         margin: 50px auto;
@@ -886,33 +746,15 @@ footer a:hover {
     }
 
     .section h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .section h2 {
         font-size: 1.8rem;
-        margin-bottom: 30px;
-    }
-
-    .section p {
-        font-size: 1.05rem;
-        line-height: 1.8;
     }
 
 
-    /* -----------------------------------------------------
-       BOOKSHOP / CAFFÈ
-       ----------------------------------------------------- */
-
-    .bookshop-image {
-        width: 90%;
-        margin: 50px auto;
-    }
-
-
-    /* -----------------------------------------------------
-       LIBRI
-       ----------------------------------------------------- */
+    /* LIBRI */
 
     .books {
         grid-template-columns: 1fr;
@@ -925,9 +767,7 @@ footer a:hover {
     }
 
 
-    /* -----------------------------------------------------
-       AUTORI
-       ----------------------------------------------------- */
+    /* AUTORI */
 
     .authors {
         grid-template-columns: 1fr;
@@ -940,84 +780,69 @@ footer a:hover {
     }
 
 
-    /* -----------------------------------------------------
-       RECENSIONI
-       ----------------------------------------------------- */
-
-    .review-card {
-        padding: 25px;
-        margin-top: 40px;
-    }
-
-    .review-card h3 {
-        font-size: 1.2rem;
-    }
-
-    .review-card blockquote {
-        font-size: 1rem;
-    }
-
-
-    /* -----------------------------------------------------
-       TACCUINO
-       ----------------------------------------------------- */
+    /* TACCUINO */
 
     .journal-section {
-        max-width: 100%;
+        padding: 0 20px;
     }
 
-    .journal-page-image {
+    .journal-entry,
+    .journal-entry.image-left {
+        display: block;
+    }
+
+    .journal-image {
         width: 100%;
-        margin: 35px auto 50px;
+        height: 280px;
+        margin-bottom: 25px;
     }
 
-    .journal-entry {
-        margin: 45px 0;
+    .journal-text {
+        width: auto;
+        padding: 30px;
+    }
+
+    .journal-one,
+    .journal-two {
         padding: 25px;
+    }
+
+    .journal-one .journal-image,
+    .journal-two .journal-image {
+        height: 280px;
+        margin-bottom: 25px;
     }
 
     .journal-three {
         padding: 25px;
     }
 
-    .journal-image {
-        height: 300px;
-    }
-
     .journal-three .journal-image {
-        height: 300px;
-    }
-
-    .journal-text {
-        padding: 25px;
+        height: 280px;
+        margin-bottom: 25px;
     }
 
 
-    /* -----------------------------------------------------
-       STORIE
-       ----------------------------------------------------- */
+    /* STORIE */
 
     .story-card {
         padding: 25px;
-        margin: 45px 0;
     }
 
     .story-image {
-        height: 300px;
+        height: 280px;
+        margin-bottom: 25px;
     }
 
-    .book-cover {
-        width: 180px;
+    .story-text {
+        text-align: left;
     }
 
 
-    /* -----------------------------------------------------
-       ARTICOLI
-       ----------------------------------------------------- */
+    /* ARTICOLI */
 
     .article-card {
         padding: 25px;
-        margin: 45px 0;
     }
 
     .article-card h3 {
@@ -1030,14 +855,11 @@ footer a:hover {
 
     .article-image {
         height: 280px;
+        margin-bottom: 25px;
     }
 
     .article-image img {
         max-width: 180px;
-    }
-
-    .baldree-image img {
-        max-width: 100%;
     }
 
     .article-card p {
@@ -1046,15 +868,12 @@ footer a:hover {
     }
 
     .article-card blockquote {
-        font-size: 1rem;
-        margin: 25px 10px;
-        padding-left: 18px;
+        margin: 25px 5px;
+        padding-left: 20px;
     }
 
 
-    /* -----------------------------------------------------
-       INCONTRI
-       ----------------------------------------------------- */
+    /* INCONTRI */
 
     .meeting-links {
         grid-template-columns: 1fr;
@@ -1085,39 +904,45 @@ footer a:hover {
     }
 
 
-    /* -----------------------------------------------------
-       COMMENTI DEI VISITATORI
-       ----------------------------------------------------- */
-
-    .reader-comments {
-        max-width: 100%;
-        margin: 40px auto 0;
-    }
-
-    .comment-card {
-        padding: 28px 25px 30px;
-        margin: 35px 0;
-    }
-
-    .comment-card p {
-        font-size: 1.35rem;
-    }
-
-    .comment-card .comment-context {
-        font-size: 0.85rem;
-    }
-
-    .comment-source {
-        font-size: 1.15rem !important;
-    }
-
-
-    /* -----------------------------------------------------
-       FOOTER
-       ----------------------------------------------------- */
+    /* FOOTER */
 
     footer {
-        margin-top: 70px;
         padding: 40px 20px;
     }
+}
+
+
+/* =========================================================
+   NEWSLETTER
+   ========================================================= */
+
+.newsletter {
+    max-width: 700px;
+    margin: 70px auto 60px;
+    text-align: center;
+}
+
+.newsletter hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.newsletter p {
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   IMMAGINI ARTICOLI
+   ========================================================= */
+
+.article-image-large img {
+    width: 100%;
+    max-width: 900px;
 }
