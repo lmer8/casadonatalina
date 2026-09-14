@@ -456,23 +456,31 @@ nav a:hover {
    ARTICOLI
    ========================================================= */
 
-.article-card {
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.article-list .article-card {
     background-color: #fffdf9;
     border: 1px solid #e5ddd2;
     padding: 28px 24px;
     border-radius: 10px;
-    margin: 45px 1.5%;
-    width: 30%;
+    margin: 0;
+    width: calc((100% - 40px) / 3);
     box-sizing: border-box;
-    display: inline-block;
-    vertical-align: top;
     text-align: left;
 }
 
-.article-card a {
+.article-list .article-card a {
     display: block;
     text-align: center;
 }
+
+
 
 .article-card h3 {
     color: #7b2d2d;
