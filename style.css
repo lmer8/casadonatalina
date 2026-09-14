@@ -459,12 +459,15 @@ nav a:hover {
 .article-card {
     background-color: #fffdf9;
     border: 1px solid #e5ddd2;
-    padding: 40px;
+    padding: 28px 24px;
     border-radius: 10px;
-    margin: 70px 0;
+    margin: 45px 1.5%;
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
     text-align: left;
 }
-
 .article-card h3 {
     color: #7b2d2d;
     font-size: 2rem;
