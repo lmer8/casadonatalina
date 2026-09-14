@@ -616,10 +616,25 @@ nav a:hover {
    ========================================================= */
 
 .meeting-card h2 {
-    color: #7b2d2d;
+    color: #f3d36b;
     font-weight: normal;
     margin-top: 0;
     margin-bottom: 15px;
+
+    text-shadow:
+        0 0 4px rgba(255, 220, 120, 0.6),
+        0 0 10px rgba(255, 200, 80, 0.35);
+
+    transition: text-shadow 0.25s ease, color 0.25s ease;
+}
+
+.meeting-card:hover h2 {
+    color: #ffe9a3;
+
+    text-shadow:
+        0 0 5px rgba(255, 235, 160, 0.9),
+        0 0 12px rgba(255, 210, 100, 0.8),
+        0 0 22px rgba(255, 190, 60, 0.55);
 }
 
 .meeting-card p {
