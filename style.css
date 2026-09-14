@@ -468,6 +468,12 @@ nav a:hover {
     vertical-align: top;
     text-align: left;
 }
+
+.article-card a {
+    display: block;
+    text-align: center;
+}
+
 .article-card h3 {
     color: #7b2d2d;
     font-size: 2rem;
