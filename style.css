@@ -638,9 +638,13 @@ nav a:hover {
 }
 
 .meeting-card p {
+    color: #fff8dc;
     font-size: 1.05rem;
     line-height: 1.65;
     margin: 0;
+
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -655,9 +659,18 @@ nav a:hover {
 /* I link vengono spinti nella parte bassa della porta */
 
 .meeting-card a {
-    color: #7b2d2d;
+    color: #f3d36b;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.15rem;
+    font-weight: normal;
+
+    text-shadow:
+        0 0 4px rgba(255, 220, 120, 0.6),
+        0 0 10px rgba(255, 200, 80, 0.35);
+
+    transition:
+        color 0.25s ease,
+        text-shadow 0.25s ease;
 }
 
 .meeting-card a:first-of-type {
@@ -665,7 +678,12 @@ nav a:hover {
 }
 
 .meeting-card a:hover {
-    text-decoration: underline;
+    color: #ffe9a3;
+
+    text-shadow:
+        0 0 5px rgba(255, 235, 160, 0.9),
+        0 0 12px rgba(255, 210, 100, 0.8),
+        0 0 22px rgba(255, 190, 60, 0.55);
 }
 
 
