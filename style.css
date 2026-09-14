@@ -844,9 +844,12 @@ footer a:hover {
 
     /* ARTICOLI */
 
-    .article-card {
-        padding: 25px;
-    }
+.article-card {
+    width: 88%;
+    padding: 25px 22px;
+    margin: 35px auto;
+    display: block;
+}
 
     .article-card h3 {
         font-size: 1.7rem;
