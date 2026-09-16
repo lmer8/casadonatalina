@@ -109,6 +109,21 @@ nav a:hover {
     border-radius: 4px;
 }
 
+/* =========================================================
+   BOOKSHOP IMAGE
+   ========================================================= */
+
+.bookshop-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bookshop-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 /* =========================================================
    CONTENUTO GENERALE
@@ -857,7 +872,17 @@ footer a:hover {
         font-size: 1rem;
     }
 
+    /* BOOKSHOP IMAGE */
 
+    .bookshop-image {
+        width: 100%;
+    }
+
+    .bookshop-image img {
+        width: 100%;
+        height: auto;
+    }
+    
     /* CONTENUTO */
 
     .section {
