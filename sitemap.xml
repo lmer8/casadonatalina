@@ -121,6 +121,22 @@
   </url>
 
 
+  <!-- Biblioteca -->
+
+  <url>
+    <loc>https://casadonatalina.it/biblioteca.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/biblioteca-de.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/biblioteca-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/biblioteca-es.html</loc>
+  </url>
+
+
   <!-- Articoli -->
 
   <url>
@@ -164,6 +180,21 @@
   </url>
   <url>
     <loc>https://casadonatalina.it/articoli/mendoza-mexico-playa-vacia.html</loc>
+  </url>
+
+  <!-- Ospina -->
+
+  <url>
+    <loc>https://casadonatalina.it/articoli/ospina.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/ospina-de.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/ospina-en.html</loc>
+  </url>
+  <url>
+    <loc>https://casadonatalina.it/articoli/ospina-es.html</loc>
   </url>
 
 
