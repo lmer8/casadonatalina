@@ -300,6 +300,18 @@ nav a:hover {
     max-width: 1200px;
 }
 
+.journal-page-image {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.journal-page-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .journal-entry {
     margin: 70px 0;
     padding: 40px;
