@@ -1116,3 +1116,12 @@ footer a:hover {
     width: 100%;
     max-width: 900px;
 }
+/* =========================================================
+  DISCLAIMER
+   ========================================================= */
+.affiliate-disclaimer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 25px;
+    font-size: 0.85em;
+}
