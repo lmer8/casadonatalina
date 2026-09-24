@@ -350,6 +350,10 @@ nav a:hover {
     background-color: #eee2bd;
 }
 
+.journal-seven ul {
+    font-size: 1rem;
+}
+
 .journal-image {
     width: 100%;
     height: 450px;
