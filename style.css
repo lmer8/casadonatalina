@@ -307,6 +307,16 @@ nav a:hover {
     padding: 15px 10px;
 }
 
+/* Immagine introduttiva della pagina */
+
+.comment-page-image {
+    display: block;
+    width: 360px;
+    max-width: 85%;
+    height: auto;
+    margin: 30px auto 45px;
+}
+
 /* Aspetto generale dei foglietti */
 
 .comment-card {
