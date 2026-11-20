@@ -457,6 +457,15 @@ nav a:hover {
 
 }
 
+.comment-card .comment-context a {
+    color: #7b2d2d;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.comment-card .comment-context a:hover {
+    color: #a65e50;
+}
 
 /* =========================================================
    TACCUINO
