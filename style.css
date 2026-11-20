@@ -419,6 +419,12 @@ nav a:hover {
     margin: 0 0 18px;
 }
 
+/* Commenti lunghi: occupano tutta la riga */
+
+.comment-card-wide {
+    width: 100%;
+}
+
 /* Contesto del commento */
 
 .comment-card .comment-context {
