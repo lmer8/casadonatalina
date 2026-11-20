@@ -312,7 +312,7 @@ nav a:hover {
 .comment-page-image {
     display: block;
     width: 360px;
-    max-width: 85%;
+    max-width: 45%;
     height: auto;
     margin: 30px auto 45px;
 }
