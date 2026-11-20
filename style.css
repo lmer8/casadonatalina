@@ -291,6 +291,147 @@ nav a:hover {
     font-style: italic;
 }
 
+/* =========================================================
+   COMMENTI DEI LETTORI
+   FOGLIETTI ATTACCATI AL FRIGORIFERO
+   ========================================================= */
+
+.reader-comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px 25px;
+    max-width: 1100px;
+    margin: 55px auto;
+    padding: 15px 10px;
+}
+
+/* Aspetto generale dei foglietti */
+
+.comment-card {
+    position: relative;
+    box-sizing: border-box;
+    width: calc(50% - 20px);
+    min-width: 280px;
+    padding: 38px 28px 25px;
+
+    background-color: #fff5c9;
+
+    background-image:
+        repeating-linear-gradient(
+            transparent,
+            transparent 30px,
+            rgba(100, 130, 160, 0.17) 31px
+        );
+
+    border: 1px solid rgba(120, 105, 75, 0.18);
+
+    box-shadow:
+        2px 5px 10px rgba(0, 0, 0, 0.17);
+
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* Colori diversi e inclinazioni */
+
+.comment-card:nth-child(6n+1) {
+    background-color: #fff5c9;
+    transform: rotate(-2deg);
+}
+
+.comment-card:nth-child(6n+2) {
+    background-color: #f9e4df;
+    transform: rotate(1.8deg);
+}
+
+.comment-card:nth-child(6n+3) {
+    background-color: #e6eedf;
+    transform: rotate(-1.2deg);
+}
+
+.comment-card:nth-child(6n+4) {
+    background-color: #e5edf4;
+    transform: rotate(2.2deg);
+}
+
+.comment-card:nth-child(6n+5) {
+    background-color: #f1e5f0;
+    transform: rotate(-1.7deg);
+}
+
+.comment-card:nth-child(6n+6) {
+    background-color: #f5e9d5;
+    transform: rotate(1deg);
+}
+
+/* Puntina colorata */
+
+.comment-card::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 12px;
+    height: 12px;
+
+    background-color: #9b5145;
+    border-radius: 50%;
+
+    box-shadow:
+        1px 2px 3px rgba(0, 0, 0, 0.3),
+        inset 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+/* Testo */
+
+.comment-card p {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    margin: 0 0 18px;
+}
+
+/* Contesto del commento */
+
+.comment-card .comment-context {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #686158;
+}
+
+/* Nome e data */
+
+.comment-card .comment-source {
+    margin-top: 25px;
+    margin-bottom: 0;
+
+    text-align: right;
+
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    color: #65534a;
+}
+
+/* Smartphone */
+
+@media (max-width: 700px) {
+
+    .reader-comments {
+        gap: 30px;
+        padding: 10px 5px;
+    }
+
+    .comment-card {
+        width: 100%;
+        min-width: 0;
+        padding: 38px 22px 25px;
+    }
+
+}
+
 
 /* =========================================================
    TACCUINO
